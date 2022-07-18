@@ -10,14 +10,17 @@ function Welcome(props) {
             <div>
                 <Link to='/search'>search</Link>
             </div>
-            <div><Link to='usememo'>usermemo</Link></div>
             <div><Link to='/star'>star</Link></div>
             <div>
                 <Link to='/redux'>redux</Link>
             </div>
             <div>
-            <Link to='/redux_console'>redux console</Link>
+                <Link to='/redux_console'>redux console</Link>
             </div>
+            <div><Link to="/parent_children"> parent children</Link></div>
+            <div><Link to="/context"> context</Link></div>
+            <div><Link to="/styled"> styled</Link></div>
+            <div><Link to="/usememo_index">use Memo</Link></div>
         </div>
     )
 }
